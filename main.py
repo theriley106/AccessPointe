@@ -29,4 +29,4 @@ def genPass(dormNumber, ssid=None):
 
 
 if __name__ == "__main__":
-	genPass('134')
+	genPass(raw_input("Room Number: "))
